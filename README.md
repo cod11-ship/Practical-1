@@ -1,1 +1,1 @@
-# Practical-1
+# 10 minor projects on python while using API in some of them
