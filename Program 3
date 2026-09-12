@@ -1,1 +1,33 @@
+#PYTHON CODE FOR QUIZ
+score = 0
 
+print("===== Python Quiz =====")
+
+print("\n1. Which language are we using?")
+print("A. Java")
+print("B. Python")
+print("C. C++")
+print("D. HTML")
+
+answer = input("Enter your answer: ")
+if answer.upper() == "B":
+    print("Correct!")
+    score += 1
+else:
+ print("Wrong!")
+
+print("\n2. Which symbol is used for comments in Python?")
+print("A. //")
+print("B. #")
+print("C. /*")
+print("D. @")
+
+answer = input("Enter your answer: ")
+
+if answer.upper() == "B":
+  print("Correct!")
+  score += 1
+else:
+  print("Wrong!")
+
+print("\nYour final score is:", score, "/ 2")
